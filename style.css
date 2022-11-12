@@ -1,0 +1,54 @@
+
+    nav{
+   Display:flex;
+   justify-content:space-between;
+   top:0px;
+   background-color:rgb(12, 11, 11);
+   color:white;
+   position: sticky;
+}
+#icon ul {
+    display:flex;
+    list-style:none;
+    text-decoration:none;
+}
+#icon li a{
+    text-decoration:none;
+    color:white;
+    text-decoration:none;
+    position:sticky;
+}
+
+#items ul{
+    display:flex;
+    list-style:none;
+    text-decoration:none;
+    gap:60px;   
+    position: sticky;
+    top:0px;
+}
+#items li a{
+    text-decoration:solid;
+    color:white;
+    position: sticky;
+    top: 0px;
+    
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: left;
+}
+
+.center{
+    height:500px;
+    width:300px;
+    object-position: right;
+    right: 100px;
+}
+
+button{
+    background-color: black;
+    color:white;
+}
